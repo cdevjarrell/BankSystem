@@ -29,7 +29,7 @@ public class Account {
             System.out.println("Insufficient funds.");
         } else {
             balance -= amount;
-            System.out.pritnln("Withdrew $" + amount + " | New balance: $" + balance);
+            System.out.println("Withdrew $" + amount + " | New balance: $" + balance);
         }
     }
 
